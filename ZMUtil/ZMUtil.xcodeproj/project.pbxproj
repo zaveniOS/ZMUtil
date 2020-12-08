@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		619B9380257D32640024454F /* ZavenFeatures.h in Headers */ = {isa = PBXBuildFile; fileRef = 619B937E257D32640024454F /* ZavenFeatures.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		619B9387257D32970024454F /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619B9386257D32970024454F /* Validator.swift */; };
+		61CD4C11257FB74800E26176 /* ZMUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 61CD4C0F257FB74800E26176 /* ZMUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61CD4C18257FB77200E26176 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CD4C17257FB77100E26176 /* Validator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		619B937B257D32640024454F /* ZavenFeatures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZavenFeatures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		619B937E257D32640024454F /* ZavenFeatures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZavenFeatures.h; sourceTree = "<group>"; };
-		619B937F257D32640024454F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		619B9386257D32970024454F /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		61CD4C0C257FB74800E26176 /* ZMUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZMUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61CD4C0F257FB74800E26176 /* ZMUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMUtil.h; sourceTree = "<group>"; };
+		61CD4C10257FB74800E26176 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61CD4C17257FB77100E26176 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		619B9378257D32640024454F /* Frameworks */ = {
+		61CD4C09257FB74800E26176 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,80 +29,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		619B9371257D32640024454F = {
+		61CD4C02257FB74800E26176 = {
 			isa = PBXGroup;
 			children = (
-				619B937D257D32640024454F /* ZavenFeatures */,
-				619B937C257D32640024454F /* Products */,
+				61CD4C0E257FB74800E26176 /* ZMUtil */,
+				61CD4C0D257FB74800E26176 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		619B937C257D32640024454F /* Products */ = {
+		61CD4C0D257FB74800E26176 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				619B937B257D32640024454F /* ZavenFeatures.framework */,
+				61CD4C0C257FB74800E26176 /* ZMUtil.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		619B937D257D32640024454F /* ZavenFeatures */ = {
+		61CD4C0E257FB74800E26176 /* ZMUtil */ = {
 			isa = PBXGroup;
 			children = (
-				619B937E257D32640024454F /* ZavenFeatures.h */,
-				619B9386257D32970024454F /* Validator.swift */,
-				619B937F257D32640024454F /* Info.plist */,
+				61CD4C0F257FB74800E26176 /* ZMUtil.h */,
+				61CD4C17257FB77100E26176 /* Validator.swift */,
+				61CD4C10257FB74800E26176 /* Info.plist */,
 			);
-			path = ZavenFeatures;
+			path = ZMUtil;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		619B9376257D32640024454F /* Headers */ = {
+		61CD4C07257FB74800E26176 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				619B9380257D32640024454F /* ZavenFeatures.h in Headers */,
+				61CD4C11257FB74800E26176 /* ZMUtil.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		619B937A257D32640024454F /* ZavenFeatures */ = {
+		61CD4C0B257FB74800E26176 /* ZMUtil */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 619B9383257D32640024454F /* Build configuration list for PBXNativeTarget "ZavenFeatures" */;
+			buildConfigurationList = 61CD4C14257FB74800E26176 /* Build configuration list for PBXNativeTarget "ZMUtil" */;
 			buildPhases = (
-				619B9376257D32640024454F /* Headers */,
-				619B9377257D32640024454F /* Sources */,
-				619B9378257D32640024454F /* Frameworks */,
-				619B9379257D32640024454F /* Resources */,
+				61CD4C07257FB74800E26176 /* Headers */,
+				61CD4C08257FB74800E26176 /* Sources */,
+				61CD4C09257FB74800E26176 /* Frameworks */,
+				61CD4C0A257FB74800E26176 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ZavenFeatures;
-			productName = ZavenFeatures;
-			productReference = 619B937B257D32640024454F /* ZavenFeatures.framework */;
+			name = ZMUtil;
+			productName = ZMUtil;
+			productReference = 61CD4C0C257FB74800E26176 /* ZMUtil.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		619B9372257D32640024454F /* Project object */ = {
+		61CD4C03257FB74800E26176 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1170;
 				ORGANIZATIONNAME = Zaven;
 				TargetAttributes = {
-					619B937A257D32640024454F = {
+					61CD4C0B257FB74800E26176 = {
 						CreatedOnToolsVersion = 11.7;
 						LastSwiftMigration = 1170;
 					};
 				};
 			};
-			buildConfigurationList = 619B9375257D32640024454F /* Build configuration list for PBXProject "ZavenFeatures" */;
+			buildConfigurationList = 61CD4C06257FB74800E26176 /* Build configuration list for PBXProject "ZMUtil" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,18 +110,18 @@
 				en,
 				Base,
 			);
-			mainGroup = 619B9371257D32640024454F;
-			productRefGroup = 619B937C257D32640024454F /* Products */;
+			mainGroup = 61CD4C02257FB74800E26176;
+			productRefGroup = 61CD4C0D257FB74800E26176 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				619B937A257D32640024454F /* ZavenFeatures */,
+				61CD4C0B257FB74800E26176 /* ZMUtil */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		619B9379257D32640024454F /* Resources */ = {
+		61CD4C0A257FB74800E26176 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -131,18 +131,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		619B9377257D32640024454F /* Sources */ = {
+		61CD4C08257FB74800E26176 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				619B9387257D32970024454F /* Validator.swift in Sources */,
+				61CD4C18257FB77200E26176 /* Validator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		619B9381257D32640024454F /* Debug */ = {
+		61CD4C12257FB74800E26176 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -205,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		619B9382257D32640024454F /* Release */ = {
+		61CD4C13257FB74800E26176 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -262,7 +262,7 @@
 			};
 			name = Release;
 		};
-		619B9384257D32640024454F /* Debug */ = {
+		61CD4C15257FB74800E26176 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -272,14 +272,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ZavenFeatures/Info.plist;
+				INFOPLIST_FILE = ZMUtil/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com-prescription.ZavenFeatures";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-prescription.ZMUtil";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -288,7 +288,7 @@
 			};
 			name = Debug;
 		};
-		619B9385257D32640024454F /* Release */ = {
+		61CD4C16257FB74800E26176 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -298,14 +298,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ZavenFeatures/Info.plist;
+				INFOPLIST_FILE = ZMUtil/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com-prescription.ZavenFeatures";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-prescription.ZMUtil";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -316,25 +316,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		619B9375257D32640024454F /* Build configuration list for PBXProject "ZavenFeatures" */ = {
+		61CD4C06257FB74800E26176 /* Build configuration list for PBXProject "ZMUtil" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				619B9381257D32640024454F /* Debug */,
-				619B9382257D32640024454F /* Release */,
+				61CD4C12257FB74800E26176 /* Debug */,
+				61CD4C13257FB74800E26176 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		619B9383257D32640024454F /* Build configuration list for PBXNativeTarget "ZavenFeatures" */ = {
+		61CD4C14257FB74800E26176 /* Build configuration list for PBXNativeTarget "ZMUtil" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				619B9384257D32640024454F /* Debug */,
-				619B9385257D32640024454F /* Release */,
+				61CD4C15257FB74800E26176 /* Debug */,
+				61CD4C16257FB74800E26176 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 619B9372257D32640024454F /* Project object */;
+	rootObject = 61CD4C03257FB74800E26176 /* Project object */;
 }
